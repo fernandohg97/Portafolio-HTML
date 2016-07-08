@@ -1,0 +1,19 @@
+.logo{
+  width: 120px;
+  height: 60px;
+  top: 0;
+  margin-left: 550px;
+  border-style: dotted;
+  position: absolute;
+}
+.title1{
+  border-style: groove;
+  border-color: yellow;
+  margin-left: 150px;
+  position: absolute;
+}
+.superior{
+  position: fixed;
+  height: 200px;
+  position: absolute;
+}
