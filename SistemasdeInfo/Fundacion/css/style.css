@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+/* NavBar */
+nav{
+  top: 0;
+  width: 100%;
+  border-style: dashed;
+  border-width: thin;
+  position: fixed;
+  border-color: green;
+  float: right;
+  padding-bottom: 10px;
+}
+nav figure img{
+  margin-top: 3px;
+  float: left;
+  width: 130px;
+  height: 50px;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+  /*border-style: double;
+  border-width: thin;*/
+
+}
+nav ul li{
+  margin-top: 10px;
+  margin-left: 20px;
+  display: inline-block;
+  /*border-style: solid;
+  border-width: thin;*/
+
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: fantasy;
+  color: #456473;
+}
+.ultimo{
+  margin-right: 30px;
+}
+/* Primera seccion */
+.intro{
+  border-style: solid;
+  border-color: red;
+  margin-top: 80px;
+  padding-bottom: 240px;
+  background-color: #895242;
+}
+.parrafo1{
+  width: 80%;
+  right: 0px;
+  margin-right: 30px;
+  border-style: dotted;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 22px;
+  line-height: 1.5em;
+  margin-top: -50px;
+}
+
+.titulo1{
+  text-align: right;
+  margin-right: 30px;
+  }
+.titulo1{
+  margin-top: 200px;
+  font-size: 100px;
+  font-family: Panama;
+}
+/* Segunda seccion*/
+.intro1{
+  border-style: dashed;
+  border-color: orange;
+  padding-bottom: 260px;
+  background-color: #674690;
+}
+.titulo2, .parrafo2{
+  text-align: center;
+}
+.titulo2{
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: Panama;
+}
+/* Tercera seccion */
+.intro2{
+  border-style: inset;
+  border-color: brown;
+  padding-bottom: 130px;
+}
+.imagenes{
+  list-style-type: none;
+  margin-left: 35px;
+  margin-top: 160px;
+}
+.imagenes li{
+  display: inline-block;
+}
+ul li figure{
+  border-style: solid;
+  border-radius: 50%;
+  width: 300px;
+  height: 290px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.foto{
+  width: 300px;
+  height: 290px;
+}
+/* Cuarta seccion */
+.intro3{
+
+}
