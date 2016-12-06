@@ -144,7 +144,7 @@ ul li figure{
 
 /* Cuarta seccion */
 .intro3{
-  padding-bottom: 530px;
+  padding-bottom: 600px;
   position: relative;
   background-image: url("../img/cancer2.jpeg");
   background-size: contain;
@@ -164,17 +164,18 @@ ul li figure{
 .tabla td{
   border-right: solid whitesmoke;
   border-width: 2px;
+  width: 30%;
   padding-right: 20px;
   padding-left: 20px;
-  line-height: 1.8em;
-  height: 300px;
+  line-height: 1.7em;
+  /*height: 250px;*/
   vertical-align: top;
   text-align: justify;
   text-align-last: center;
-  font-family: League Gothic Condensed;
-  font-size: 28px;
+  font-family: Tahoma;
+  font-size: 18px;
 }
-.texto:last-child{
+.tabla td:last-child{
   border-right: none;
 }
 /* Mapa de Google */
@@ -192,4 +193,46 @@ ul li figure{
 #Mapa{
   width: 100%;
   height: 500px;
+}
+/* Tabla de carreras*/
+.ciudades-info{
+  padding-bottom: 200px;
+  background-color: pink;
+}
+.ciudades{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.ciudades th{
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: Tahoma;
+  color: #B64A4A;
+  border-bottom: solid whitesmoke;
+  border-width: thin;
+
+}
+.ciudades td{
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 1.7em;
+  vertical-align: top;
+  text-align: justify;
+  text-align-last: center;
+  font-family: Tahoma;
+  font-size: 18px;
+  color: #882A2A;
+}
+/*Footer*/
+footer p{
+
+  text-align: center;
+}
+footer img{
+  width: 70px;
+  height: 40px;
+  margin-left: 47.5%;
 }
