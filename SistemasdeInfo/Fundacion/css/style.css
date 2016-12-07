@@ -41,8 +41,8 @@ body{
 
 /* Primera seccion */
 .intro{
-  margin-top: -100px;
-  padding-bottom: 200px;
+  margin-top: -110px;
+  padding-bottom: 290px;
   background-image: url("../img/cancer2.jpeg");
   background-size: cover;
 }
@@ -50,20 +50,20 @@ body{
   width: 70%;
   left: 190px;
   position: relative;
-  text-align: justify;
-  text-align-last: center;
+  text-align: center;
+  text-align-last: justify;
   font-family: sans-serif;
   font-size: 21px;
-  line-height: 1.7em;
-  top: 50px;
+  line-height: 1.8em;
+  top: 120px;
 }
 .titulo1{
-  top: 120px;
-  margin-left: 100px;
-  position: relative;
   text-align: center;
-  font-size: 100px;
-  font-family: Century;
+  left: 100px;
+  top: 160px;
+  position: relative;
+  font-size: 110px;
+  font-family: Calibri;
 }
 
 /* Segunda seccion*/
@@ -71,7 +71,7 @@ body{
   position: relative;
   padding-bottom: 400px;
   background-image: url("../img/mama.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 .parrafo2{
   width: 70%;
@@ -82,7 +82,7 @@ body{
   text-align-last: center;
   font-family: sans-serif;
   font-size: 21px;
-  line-height: 1.5em;
+  line-height: 1.8em;
   margin-top: 160px;
 }
 .titulo2{
@@ -98,12 +98,12 @@ body{
 .intro2{
   position: relative;
   padding-bottom: 600px;
-  background-image: url("../img/lucha.jpg");
-  background-size: contain;
+  background-image: url("../img/pink1.jpg");
+  background-size: cover;
 }
 .titulo3{
   position: absolute;
-  right: 300px;
+  right: 260px;
   text-align: center;
   margin-top: 40px;
   font-size: 60px;
@@ -112,7 +112,7 @@ body{
 .imagenes{
   position: absolute;
   list-style-type: none;
-  margin-left: 35px;
+  margin-left: 80px;
   margin-top: 160px;
   margin-bottom: 50px;
 }
@@ -141,14 +141,14 @@ ul li figure{
   margin-left: auto;
   margin-right: auto;
   bottom: 1em;
-  right: 50%;
+  right: 48%;
 }
 
 /* Cuarta seccion */
 .intro3{
   padding-bottom: 560px;
   position: relative;
-  background-image: url("../img/cancer2.jpeg");
+  background-image: url("../img/pink.jpg");
   background-size: contain;
 }
 .tabla{
@@ -157,6 +157,7 @@ ul li figure{
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
+  color: #A3E7D6;
 }
 .tabla th{
   font-size: 45px;
@@ -198,20 +199,21 @@ ul li figure{
 /* Tabla de carreras*/
 .ciudades-info{
   padding-bottom: 200px;
-  background-color: whitesmoke;
+  background-color: white;
 }
 .ciudades{
   position: absolute;
-  margin-left: 50px;
+  margin-left: 400px;
   margin-top: 20px;
   border-collapse: collapse;
+  color: #F4ABE9;
 }
 .ciudades th{
   padding-bottom: 10px;
   font-size: 30px;
   font-family: Tahoma;
-  color: #B64A4A;
-  border-bottom: solid whitesmoke;
+
+  border-bottom: solid grey;
   border-width: thin;
 
 }
@@ -225,12 +227,12 @@ ul li figure{
   text-align-last: center;
   font-family: Tahoma;
   font-size: 18px;
-  color: #882A2A;
 }
 /* Seccion de contacto */
 .contacto{
-  background-color: #E6E3BC;
+  background-color: #FFCCE5;
   padding-top: 1px;
+  color: #FFF;
 }
 .contacto-info{
   margin-left: 100px;
@@ -246,21 +248,25 @@ ul li figure{
 }
 .contacto-info p{
   font-size: 20px;
+
+
 }
 /*Footer*/
 footer{
-  background-color: #CAB1B1;
-  padding-top: 10px;
+  background-color: #E6BFE0;
+  color: whitesmoke;
+
 }
 footer p{
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  padding-top: 5px;
+  text-align:center;
+  font-size: 15px;
+  font-family: Tahoma;
 }
 footer img{
-  width: 62px;
+  width: 60px;
   height: 30px;
-  margin-left: 47.5%;
-  margin-top: 5px;
+  margin-left: 48%;
 }
+
 
