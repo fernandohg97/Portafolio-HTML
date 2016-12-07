@@ -1,3 +1,5 @@
+//CODIGO JAVASCRIPT
+//MAPA DE GOOGLE MAPS
 var map;
 function inicializar() {
 
@@ -20,30 +22,23 @@ function inicializar() {
 
   var ens = { lat: 31.8667, lng: -116.5964 };
   var ens_msg="Estoy en Ensenada";
-  var ens_info = "<b>Ensenada</b>";
+  var ens_info = "<b>Ensenada</b>"+"<p>Participa en la 3ra edicion de Corre con color en 2017</p>";
   var infowindowENS = new google.maps.InfoWindow({
     content: ens_info
   });
 
   var mochis = { lat: 25.7667, lng: -108.9667};
   var mochis_msg="Estoy en Mochis";
-  var mochis_info = "<b>Los Mochis</b>";
+  var mochis_info = "<b>Los Mochis</b>"+"<p>Apoya a una buena causa asistiendo al Gran Maraton Mochis</p>";
   var infowindowMOCHIS = new google.maps.InfoWindow({
     content: mochis_info
   });
 
-  var gdl = {lat: 20.5, lng: -103.0583};
-  var gdl_msg="Estoy en Guadalajara";
-  var gdl_info = "<b>Guadalajara</b>";
-  var infowindowGDL = new google.maps.InfoWindow({
-    content: gdl_info
-  });
-
-  var ver = { lat: 19.1738, lng: -96.1342};
-  var ver_msg = "Estoy en Veracruz";
-  var ver_info = "<b>Veracruz</b>"; //+"<img src='img/veracruz.jpg'>"+"<iframe width='560' height='315' src='https://www.youtube.com/embed/It5ZxdvH6nM' frameborder='0' allowfullscreen></iframe>";
-  var infowindowVER = new google.maps.InfoWindow({
-    content: ver_info
+  var ros = {lat: 32.3661, lng: -117.0618};
+  var ros_msg="Estoy en Rosarito";
+  var ros_info = "<b>Rosarito</b>"+"<p>Pedaleando por una esperanza de vida, 2017. Rosarito-Viñedos</p> ";
+  var infowindowROS = new google.maps.InfoWindow({
+    content: ros_info
   });
 
 
@@ -65,19 +60,13 @@ var markerMOCHIS = new google.maps.Marker({
     map: map
   });
 
-var markerGDL = new google.maps.Marker({
-  position: gdl,
+var markerROS = new google.maps.Marker({
+  position: ros,
   label: "C",
-  title: gdl_msg,
+  title: ros_msg,
   map: map
 });
 
-var markerVER = new google.maps.Marker({
-  position: ver,
-  label: "D",
-  title: ver_msg,
-  map: map
-});
 
 markerENS.addListener("click", function(){
   infowindowENS.open(map, markerENS)
@@ -85,12 +74,8 @@ markerENS.addListener("click", function(){
 markerMOCHIS.addListener("click", function(){
   infowindowMOCHIS.open(map, markerMOCHIS)
 })
-markerGDL.addListener("click", function(){
-  infowindowGDL.open(map,markerGDL)
-})
-markerVER.addListener("click", function(){
-  infowindowVER.open(map,markerVER)
+markerROS.addListener("click", function(){
+  infowindowROS.open(map, markerROS)
 })
 
 }
-
