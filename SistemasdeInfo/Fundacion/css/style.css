@@ -1,272 +1,149 @@
-body{
-  margin: 0;
-  padding: 0;
-  background-color: pink;
-}
-/*Logo*/
-.intro article figure img{
-  margin-top: 30px;
-  float: left;
-  width: 100px;
-  height: 20px;
-}
+<!DOCTYPE html>
+<html>
+  <head lang="es">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Fundacion Rosa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/code.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+  </head>
+  <!-- Inicio del Cuerpo -->
 
-/* Navbar */
-.intro article ul{
-  margin-top: 30px;
-  margin-right: 100px;
-  float: right;
-  overflow: hidden;
-  list-style-type: none;
-}
-.intro article ul li{
-  border-right: solid thin;
-  border-color: grey;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-.intro article ul li a{
-  text-decoration: none;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 22px;
-  font-family: Alcubierre;
-  color: #456473;
-  letter-spacing: 2px;
-}
-.intro article ul li a:hover{
-  background-color: #111;
-}
+  <body>
 
-/* Primera seccion */
-.intro{
-  margin-top: -110px;
-  padding-bottom: 290px;
-  background-image: url("../img/cancer2.jpeg");
-  background-size: cover;
-}
-.parrafo1{
-  width: 70%;
-  left: 190px;
-  position: relative;
-  text-align: center;
-  text-align-last: justify;
-  font-family: sans-serif;
-  font-size: 21px;
-  line-height: 1.8em;
-  top: 120px;
-}
-.titulo1{
-  text-align: center;
-  left: 100px;
-  top: 160px;
-  position: relative;
-  font-size: 110px;
-  font-family: Calibri;
-}
+    <!-- Seccion principal -->
+    <section class="intro">
+      <article>
+            <figure>
+              <img src="img/logopag.png" alt="">
+            </figure>
+            <ul>
+              <li class=""><a href="#cancer_de_mama">Cáncer de Mama</a></li>
+              <li class=""><a href="#fundacion">Fundación</a></li>
+              <li class=""><a href="#carreras">Carreras</a></li>
+              <li class="ultimo"><a href="#contact">Contacto</a></li>
+            </ul>
+            <h1 class="titulo1">Fundación Rosa</h1>
+            <p class="parrafo1">Esta fundación creada por Daniel Valdez y Fernando Hernández se inició en el año 2016 como parte de su proyecto de
+              Sistemas de información y ha sido una de las fundaciones más exitosas a nivel global ayudando a más de 2500 mujeres diagnositcadas
+              con esta enfermedad.</p>
+      </article>
+    </section>
+    <!-- Fin -->
 
-/* Segunda seccion*/
-.intro1{
-  position: relative;
-  padding-bottom: 400px;
-  background-image: url("../img/mama.jpg");
-  background-size: cover;
-}
-.parrafo2{
-  width: 70%;
-  right: 0px;
-  margin-right: 190px;
-  position: absolute;
-  text-align: justify;
-  text-align-last: center;
-  font-family: sans-serif;
-  font-size: 21px;
-  line-height: 1.8em;
-  margin-top: 160px;
-}
-.titulo2{
-  position: absolute;
-  right: 400px;
-  text-align: center;
-  margin-top: 60px;
-  font-size: 60px;
-  font-family: Corbel;
-}
+    <!-- Segunda seccion -->
+     <section id="fundacion" class="intro1">
+      <article>
+        <h1 class="titulo2">¿QUIÉNES SOMOS?</h1>
+        <p class="parrafo2">Nuestra fundacón nació de la idea que sus fundadores plantearon durante una clase de Sistemas de información con el profesor
+          Luis y su gran éxito ha impactado la vida de miles de personas y las ha cambiado para bien. La misión principal de esta fundación
+          es la ayuda a las mujeres que sufren esta enfermedad y ayudar a evitar más casos.</p>
+      </article>
+    </section>
 
-/* Tercera seccion */
-.intro2{
-  position: relative;
-  padding-bottom: 600px;
-  background-image: url("../img/pink1.jpg");
-  background-size: cover;
-}
-.titulo3{
-  position: absolute;
-  right: 260px;
-  text-align: center;
-  margin-top: 40px;
-  font-size: 60px;
-  font-family: monospace;
-}
-.imagenes{
-  position: absolute;
-  list-style-type: none;
-  margin-left: 80px;
-  margin-top: 160px;
-  margin-bottom: 50px;
-}
-.imagenes li{
-  display: inline-block;
-}
-ul li figure{
-  border-style: solid;
-  border-color: brown;
-  border-width: 2px;
-  border-radius: 50%;
-  width: 300px;
-  height: 290px;
-  overflow: hidden;
-  vertical-align: middle;
-}
-.foto{
-  width: 300px;
-  height: 290px;
-}
-.simbolo{
-  position: absolute;
-  width: 35px;
-  height: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 1em;
-  right: 48%;
-}
+    <section class="intro2">
+      <article>
+        <h1 class="titulo3">UNIDOS CONTRA EL CÁNCER</h1>
+        <ul class="imagenes">
+          <li>
+            <figure><img src="img/carrera.jpg" alt="" class="foto"></figure>
+          </li>
+          <li>
+            <figure><img src="img/manos.jpg" alt="" class="foto"></figure>
+          </li>
+          <li>
+            <figure><img src="img/cm.jpg" alt="" class="foto"></figure>
+          </li>
+        </ul>
+        <img class="simbolo" src="img/simbolo.png" alt="">
+      </article>
+    </section>
 
-/* Cuarta seccion */
-.intro3{
-  padding-bottom: 560px;
-  position: relative;
-  background-image: url("../img/pink.jpg");
-  background-size: contain;
-}
-.tabla{
-  position: absolute;
-  font-family: Corbel;
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  color: #A3E7D6;
-}
-.tabla th{
-  font-size: 45px;
-  font: Corbel;
-  height: 80px;
-}
-.tabla td{
-  border-right: solid whitesmoke;
-  border-width: 2px;
-  width: 30%;
-  padding-right: 20px;
-  padding-left: 20px;
-  line-height: 1.7em;
-  vertical-align: top;
-  text-align: justify;
-  text-align-last: center;
-  font-family: Tahoma;
-  font-size: 18px;
-}
-.tabla td:last-child{
-  border-right: none;
-}
-/* Mapa de Google */
-.intro4{
-  padding: 1px;
-  background-color: whitesmoke;
-}
-.titulo4{
-  display: block;
-  text-align: center;
-  font-size: 40px;
-  font-family: Verdana;
-}
+    <section id="cancer_de_mama" class="intro3">
+      <article>
+        <table class="tabla">
+          <tr>
+            <th>CÁNCER</th>
+            <th>CÁNCER DE MAMA</th>
+            <th>ESTADISTICAS</th>
+          </tr>
+          <tr>
+            <td>Algunas de las células del cuerpo empiezan a dividirse sin detenerse y se diseminan a los tejidos del alredor.
+              El cáncer puede empezar casi en cualquier lugar del cuerpo humano.Los cambios genéticos que contribuyen al cáncer tienden a afectar
+              tres tipos principales de genes — proto-oncogenes, genes supresores de tumores y genes reparadores del ADN. Estos cambios se llaman
+              a veces "causantes" de cáncer.</td>
+            <td>Muchos factores de riesgo, como los genes y los antecedentes familiares, no se pueden controlar. Sin embargo, realizar unos cuantos
+              cambios en el estilo de vida puede reducir la probabilidad total de sufrir cáncer. Esto incluye:
+              Consumir alimentos saludables, mantener un peso saludable, y reducir el consumo de alcohol a 1 trago por día.
+              (Las mujeres que están en alto riesgo de cáncer de mama no deben consumir alcohol en absoluto).</td>
+            <td>Se calcula que este año se producirán unas 40,890 muertes (40,450 mujeres y 440 hombres) a causa del cáncer de mama. Aunque el cáncer se encuentre
+              en un estadio más avanzado, los tratamientos nuevos permiten que muchas personas con cáncer de mama mantengan una buena calidad de vida,
+              al menos durante algún tiempo.El cáncer de mama es la segunda causa más frecuente de muerte por cáncer en las mujeres de los Estados
+              Unidos, después del cáncer de pulmón. En la actualidad, hay alrededor de 3 millones de mujeres que viven en los Estados Unidos como
+              sobrevivientes del cáncer de mama.</td>
+          </tr>
+        </table>
+      </article>
+    </section>
 
-#Mapa{
-  width: 100%;
-  height: 500px;
-}
-/* Tabla de carreras*/
-.ciudades-info{
-  padding-bottom: 200px;
-  background-color: white;
-}
-.ciudades{
-  position: absolute;
-  margin-left: 400px;
-  margin-top: 20px;
-  border-collapse: collapse;
-  color: #F4ABE9;
-}
-.ciudades th{
-  padding-bottom: 10px;
-  font-size: 30px;
-  font-family: Tahoma;
+    <!-- Ultima Seccion-->   <!-- Mapa de Google JavaScript -->
+    <section id="carreras" class="intro4">
 
-  border-bottom: solid grey;
-  border-width: thin;
+    <article class="title">
+      <h1 class="titulo4">CARRERAS</h1>
+    </article>
 
-}
-.ciudades td{
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-  line-height: 1.7em;
-  vertical-align: top;
-  text-align: justify;
-  text-align-last: center;
-  font-family: Tahoma;
-  font-size: 18px;
-}
-/* Seccion de contacto */
-.contacto{
-  background-color: #FFCCE5;
-  padding-top: 1px;
-  color: #FFF;
-}
-.contacto-info{
-  margin-left: 100px;
-  font-family: Agency FB;
-}
-.contacto-info h2{
-  font-size: 40px;
-  letter-spacing: 2px;
-}
-.contacto-info h3{
-  letter-spacing: 2px;
-  font-size: 30px;
-}
-.contacto-info p{
-  font-size: 20px;
+      <article id="Mapa">
+        <script>
+          google.maps.event.addDomListener(window, 'load', inicializar);
+        </script>
+      </article>
 
+      <article class="ciudades-info">
+        <table class="ciudades">
+          <tr>
+            <th><b>Ciudad</b></th>
+            <th><b>Fecha</b></th>
+            <th><b>Categoria</b></th>
+          </tr>
+          <tr>
+            <td>Ensenada</td>
+            <td>21 de Mayo 2017</td>
+            <td>5km y 10km</td>
+          </tr>
+          <tr>
+            <td>Los Mochis</td>
+            <td>9 de Diciembre 2016</td>
+            <td>5km , 10km y 21km</td>
+          </tr>
+          <tr>
+            <td>Rosarito</td>
+            <td>11 de Marzo 2017</td>
+            <td>70km</td>
+          </tr>
+        </table>
+      </article>
 
-}
-/*Footer*/
-footer{
-  background-color: #E6BFE0;
-  color: whitesmoke;
+    <!-- FIN Mapa de Google JavaScript -->
+    <!-- Seccion de Contacto -->
+    <section id="contact" class="contacto">
+      <article class="contacto-info">
+        <h2>Contactanos</h2>
+        <p><strong>Si tiene alguna pregunta o comentario que nos quiera hacer, porfavor comuniquece a traves de estos medios:</strong></p>
+        <h3>Correo</h3>
+        <p>fernando.hdz97@gmail.com, daniel.valdez08@gmail.com</p> <a href="https://twitter.com/Danielvdzs" target="_blank">@Danielvdzs</a>
+        <h3>Teléfono</h3>
+        <p>6461862410, 6462015874</p>
+      </article>
+    <section>
 
-}
-footer p{
-  padding-top: 5px;
-  text-align:center;
-  font-size: 15px;
-  font-family: Tahoma;
-}
-footer img{
-  width: 60px;
-  height: 30px;
-  margin-left: 48%;
-}
+      <!-- Pie de pagina -->
+    <footer>
+      <p>&copy; Copyright 2016</p>
+      <img src="img/logopag.png" alt="">
+    </footer>
 
+  </body>   <!-- Fin del Cuerpo -->
 
+</html>
